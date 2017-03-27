@@ -21,7 +21,7 @@ public:
 	int show_poetry_id();
 	int show_poetry_size();
 	int show_poetry_name_size();
-	string show_poet_name();
+	char* show_poet_name();
 };
 
 void poetry::store_poet_id(int _id)
@@ -69,7 +69,7 @@ int poetry::show_poetry_name_size()
 	return poetry_name_size;
 };
 
-string poetry::show_poet_name()
+char* poetry::show_poet_name()
 {
 	return poet_name;
 };

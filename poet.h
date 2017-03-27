@@ -11,7 +11,7 @@ public:
 	void store_id(int);
 	void store_name(char*);
 	int show_id();
-	string show_name();
+	char* show_name();
 };
 
 void poet::store_id(int _id)
@@ -29,7 +29,7 @@ int poet::show_id()
 	return id;
 };
 
-string poet::show_name()
+char* poet::show_name()
 {
 	return name;
 };
